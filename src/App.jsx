@@ -7,14 +7,17 @@ import { About } from './About'
 import { Contact } from './Contact'
 import { Service } from './Service'
 import { AppLayout } from './components/layout/AppLayout'
+import { ErrorPage } from './ErrorPage'
 
 function App() {
 
   //--new way
   const router = createBrowserRouter([
     {
+      
       path: "/",
       element: <AppLayout />,
+      errorElement:<ErrorPage/>,
       children: [
         {
           path: "/",

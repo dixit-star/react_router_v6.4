@@ -12,7 +12,7 @@ export const ErrorPage = () => {
   const handleGoback=()=>{
     navigate(-1)
   }
-
+   
   return (
     <>
        <h1>error 404 page not found</h1>

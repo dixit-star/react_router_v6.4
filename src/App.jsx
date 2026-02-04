@@ -8,6 +8,7 @@ import { Contact } from './Contact'
 import { Service } from './Service'
 import { AppLayout } from './components/layout/AppLayout'
 import { ErrorPage } from './ErrorPage'
+import { fetchData } from './components/API/FetchApi'
 
 function App() {
 
@@ -33,7 +34,11 @@ function App() {
         
         {
           path: "/service",
-          element: <Service />
+          element: <Service />,
+  
+          loader:fetchData,
+
+          
         },
         {
           path: "/contact",
@@ -47,7 +52,7 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}   />
     </>
   )
 

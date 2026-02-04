@@ -27,17 +27,17 @@ export const Header = () => {
                             <div style={{ marginRight: "20px" }}>
                                 <NavLink to="/">HOME</NavLink> 
                                 <NavLink to="about">ABOUT</NavLink>
-                                <NavLink to="service">SERVICE</NavLink>
+                                <NavLink to="service">MOVIES</NavLink>
                                <NavLink to="contact">CONTACT</NavLink>
                             </div>
-                            <a style={{ marginTop: "3px" }} href="#"><img height="29px"
+                            {/* <a style={{ marginTop: "3px" }} href="#"><img height="29px"
                                 src="https://vectorified.com/images/white-shopping-cart-icon-37.jpg" alt="" /></a>
                             <div id="navbar2-cart-img">
 
                                 <h2 id="navbar2-info-counter">0</h2>
 
 
-                            </div>
+                            </div> */}
                         </div>
 
 

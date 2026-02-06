@@ -9,6 +9,8 @@ import { Service } from './Service'
 import { AppLayout } from './components/layout/AppLayout'
 import { ErrorPage } from './ErrorPage'
 import { fetchData } from './components/API/FetchApi'
+import { MoviDetails } from './MoviDetails'
+import { getMovieDetaildata } from './GetMovieDetaildata'
 
 function App() {
 
@@ -35,14 +37,21 @@ function App() {
         {
           path: "/service",
           element: <Service />,
-  
           loader:fetchData,
 
           
         },
+         {
+          path: "/service/:movieID",
+          element: <MoviDetails />,
+          loader:getMovieDetaildata,
+  
+      
+          
+        },
         {
           path: "/contact",
-          element: <Contact />
+          element: <Contact />,
         },
       ]
 

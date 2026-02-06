@@ -10,31 +10,31 @@ export const Footer = () => {
                         <div id="footer-box">
                             <div className="footer-contant-data">
                                 <img style={{marginTop: "15px",width:"80%"}} src="./public/img/blueChuhan.jpeg" alt="" />
-                                <p>Welcome to Rana Tech EcomStore, your ultimate destination for cutting <br />- edge gadgets.</p>
+                                <p>Watch, discover, and enjoy <br /> the latest releases, trending <br /> titles, and timeless classics <br /> — all in one app.</p>
                                 <img src="./public/img/cards.png" alt="" />
                             </div>
                             <div className="footer-contant-data">
-                                <h4>SHOPPING</h4>
-                                <NavLink tohref="#">Computer Store</NavLink>
+                                <h4>App Features</h4>
+                                <NavLink tohref="#">Stream latest</NavLink>
 
-                                <NavLink to="#">Laptop Store</NavLink>
+                                <NavLink to="#">popular movies</NavLink>
 
-                                <NavLink to="#">Accessories</NavLink>
+                                <NavLink to="#">Multiple genress</NavLink>
 
-                                <NavLink to="#"> Sales & Discount</NavLink>
+                                <NavLink to="#"> Watch anytime</NavLink>
                             </div>
                             <div className="footer-contant-data">
                                 <h4>EXPERIENCE</h4>
                                 <NavLink to="contact">Contact Us</NavLink>
 
-                                <NavLink to="#">Payment Method</NavLink>
+                                <NavLink to="#">My List</NavLink>
 
-                               <NavLink to="#">Delivery</NavLink>
+                               <NavLink to="#">TV Shows</NavLink>
 
-                                <NavLink to="#">Return and Exchange</NavLink>
+                                <NavLink to="#">Home</NavLink>
                             </div>
                             <div className="footer-contant-data">
-                                <h4>NEWSLETTER</h4>
+                                <h4>Support</h4>
                                 <p style={{marginTop: "0px"}}>Be the first to now about new <br />arrivales &promos!</p>
                                 <div id="inputfooter">
                                     <input style={{width: "12vw",backgroundColor:" rgb(16, 16, 16)"}} type="email" placeholder="@gamil.com"

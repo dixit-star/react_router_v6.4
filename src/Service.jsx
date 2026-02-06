@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom"
+import { useLoaderData ,NavLink} from "react-router-dom"
 
 export const Service=()=>{
     const moviData = useLoaderData()
@@ -29,7 +29,9 @@ export const Card=({curr})=>{
            <li className="card"  >
                 <div><img src={curr.Poster} alt="" /></div>
                 <p>{curr.Title} </p>
-                <button onClick={handlePlay}>Watch Now</button>
+                <NavLink to={`/service/${curr.imdbID}`}>
+                <button >Watch Now</button>
+                </NavLink>
                  
             </li>
             </div>

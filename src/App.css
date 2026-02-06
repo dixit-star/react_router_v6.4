@@ -44,9 +44,9 @@
  body {
   width: 100vw;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 0;
   background-color: aliceblue;
   color: black;
@@ -126,7 +126,7 @@
   justify-content: center;
   align-items: center;
   /* font-size: 14px; */
-  border-radius: 20px 20px 0px 0px;
+  /* border-radius: 20px 20px 0px 0px; */
 }
 
 #footer-main-container {
@@ -136,6 +136,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 #footer-box {
@@ -221,4 +222,32 @@ bottom: 15px;
  .card button{
   width: 100%;
   border-radius: 0px;
+}
+.backhomeposteer{
+  width: 100vw;
+  height: 148vh;
+  background-image: url("https://wallpapers.com/images/hd/movie-poster-background-q1zm830g0hfww2lk.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction:column ;
+  justify-content: center;
+  /* background-size: contain; */
+}
+.backhomeposteer button{
+  background-color: red;
+}
+.movidescription{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 0px 5px  5px rgb(0, 0, 0);
+  box-shadow: 0px 0px  36px 5px rgb(0, 0, 0);
+  background-color: rgb(67, 67, 61);
+  padding: 5px;
+  
+}
+.movidetailscontainer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }

@@ -9,7 +9,7 @@ export const Header = () => {
                 <section>
                     <div id="navbar">
                         <div style={{ marginRight: "85pxx" }}>
-                            <p>Free Shipping, 30-day return or refund guarantee.</p>
+                            <p>Your go-to destination for movies and entertainment</p>
                         </div>
                         <div>
                            

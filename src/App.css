@@ -251,3 +251,26 @@ bottom: 15px;
   display: flex;
   justify-content: center;
 }
+.formcontainer{
+  width: 100%;
+  height: 50vh;
+  /* border: 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formcontainer input{
+  width: 300px;
+border: none;
+background-color:transparent;
+border-bottom: 2px solid black;
+color: black
+
+}
+#message{
+
+  margin-bottom: 5px;
+  border: 2px solid;
+  height: 100px;
+
+}

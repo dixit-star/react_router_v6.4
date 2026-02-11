@@ -4,7 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider }
 import './App.css'
 import { Home } from './Home'
 import { About } from './About'
-import { Contact } from './Contact'
+import { Contact, getFormData } from './Contact.jsx'
 import { Service } from './Service'
 import { AppLayout } from './components/layout/AppLayout'
 import { ErrorPage } from './ErrorPage'
@@ -52,6 +52,7 @@ function App() {
         {
           path: "/contact",
           element: <Contact />,
+          action:getFormData,
         },
       ]
 
